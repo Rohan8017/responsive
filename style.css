@@ -1,0 +1,101 @@
+.content {
+    margin-top: 5vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column-reverse; */
+}
+.left img {
+    height: 80vh;
+    margin-bottom: 5vh;
+}
+.right h1{
+    font-size: 3.5rem;
+}
+.bordered-text{
+    display: flex;
+    flex-direction: column;
+}
+.icon i{
+    margin-left: 3vw;
+}
+.hello{
+    position: absolute;
+    top: 0;
+    left: 47.5%;
+    margin-bottom: 5%;
+}
+
+.right{
+    margin-left: 2vw;
+    margin-top: 10vh;
+}
+.right p{
+    margin-bottom: 7vh;
+}
+.bordered-text button{
+    height: 7vh;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 2vh;
+}
+@media only screen and (max-width:1100px){
+    .content{
+        margin-left: 20vw;
+        margin-right: 20vw;
+        flex-direction: column-reverse;
+    }
+    .hello{
+        position: initial;
+    }
+    .left{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left img{
+        height: 50vh;
+    }
+    .icon{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3vh;
+    }
+
+}
+@media only screen and (max-width:500px){
+    .content{
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .hello{
+        position: initial;
+    }
+    .left{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .icon{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3vh;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
